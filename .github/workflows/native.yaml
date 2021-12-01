@@ -4,11 +4,13 @@ on:
   push:
     paths:
       - .github/workflows/native.yaml
-      - native/**
+      - 'native/**.rs'
+      - 'native/Cargo.**'
   pull_request:
     paths:
       - .github/workflows/native.yaml
-      - native/**
+      - 'native/**.rs'
+      - 'native/Cargo.**'
 
 defaults:
   run:

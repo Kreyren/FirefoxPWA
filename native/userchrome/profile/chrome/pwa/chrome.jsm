@@ -23,7 +23,7 @@ class ChromeLoader {
   static MACOS_HIDDEN_WINDOW_SCRIPT = 'pwa/content/macosHiddenWindow.jsm';
 
   static DISTRIBUTION_ID = 'firefoxpwa';
-  static DISTRIBUTION_VERSION = '0.0.0';
+  static DISTRIBUTION_VERSION = '1.2.1';
   static DISTRIBUTION_ABOUT = 'With modifications by the FirefoxPWA project';
 
   static PREF_LINKS_TARGET = 'firefoxpwa.linksTarget';

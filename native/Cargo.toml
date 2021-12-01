@@ -13,7 +13,7 @@ edition = "2018"
 publish = false
 
 # Version will be set by CI from the Git tag when building and releasing
-version = "0.0.0"
+version = "1.2.1"
 
 [profile.release]
 codegen-units = 2
